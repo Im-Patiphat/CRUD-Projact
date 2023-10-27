@@ -1,0 +1,227 @@
+{
+    
+    "students": [
+        {
+            "id": 1,
+            "name": "John Doe",
+            "email": "John@gmail.com",
+            "phone": "00123456789",
+            "birthday": "1990-01-01",
+            "photo": "https://images.unsplash.com/photo-1607990281513-2c110a25bd8c?auto=format&fit=crop&q=80&w=1234&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 2,
+            "name": "Jane Smith",
+            "email": "jane@gmail.com",
+            "phone": "00123456788",
+            "birthday": "1991-03-15",
+            "photo": "https://example.com/jane_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 3,
+            "name": "Bob Johnson",
+            "email": "bob@gmail.com",
+            "phone": "00123456787",
+            "birthday": "1989-11-20",
+            "photo": "https://example.com/bob_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 4,
+            "name": "Emily Davis",
+            "email": "emily@gmail.com",
+            "phone": "00123456786",
+            "birthday": "1992-07-10",
+            "photo": "https://example.com/emily_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 5,
+            "name": "Michael Brown",
+            "email": "michael@gmail.com",
+            "phone": "00123456785",
+            "birthday": "1988-04-25",
+            "photo": "https://example.com/michael_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 6,
+            "name": "Sarah Wilson",
+            "email": "sarah@gmail.com",
+            "phone": "00123456784",
+            "birthday": "1990-12-05",
+            "photo": "https://example.com/sarah_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 7,
+            "name": "David Lee",
+            "email": "david@gmail.com",
+            "phone": "00123456783",
+            "birthday": "1991-09-18",
+            "photo": "https://example.com/david_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 8,
+            "name": "Olivia Martinez",
+            "email": "olivia@gmail.com",
+            "phone": "00123456782",
+            "birthday": "1989-06-30",
+            "photo": "https://example.com/olivia_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 9,
+            "name": "James Harris",
+            "email": "james@gmail.com",
+            "phone": "00123456781",
+            "birthday": "1993-02-14",
+            "photo": "https://example.com/james_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 10,
+            "name": "Ava Clark",
+            "email": "ava@gmail.com",
+            "phone": "00123456780",
+            "birthday": "1987-08-22",
+            "photo": "https://example.com/ava_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 11,
+            "name": "William Adams",
+            "email": "william@gmail.com",
+            "phone": "00123456779",
+            "birthday": "1994-06-12",
+            "photo": "https://example.com/william_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 12,
+            "name": "Mia Miller",
+            "email": "mia@gmail.com",
+            "phone": "00123456778",
+            "birthday": "1986-03-28",
+            "photo": "https://example.com/mia_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 13,
+            "name": "Daniel White",
+            "email": "daniel@gmail.com",
+            "phone": "00123456777",
+            "birthday": "1995-11-06",
+            "photo": "https://example.com/daniel_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 14,
+            "name": "Sophia Rodriguez",
+            "email": "sophia@gmail.com",
+            "phone": "00123456776",
+            "birthday": "1988-10-17",
+            "photo": "https://example.com/sophia_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 15,
+            "name": "Ethan Lewis",
+            "email": "ethan@gmail.com",
+            "phone": "00123456775",
+            "birthday": "1996-04-03",
+            "photo": "https://example.com/ethan_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+                    "id": 16,
+            "name": "Chloe Hall",
+            "email": "chloe@gmail.com",
+            "phone": "00123456774",
+            "birthday": "1987-12-29",
+            "photo": "https://example.com/chloe_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 17,
+            "name": "Liam Turner",
+            "email": "liam@gmail.com",
+            "phone": "00123456773",
+            "birthday": "1997-08-11",
+            "photo": "https://example.com/liam_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 18,
+            "name": "Harper Martinez",
+            "email": "harper@gmail.com",
+            "phone": "00123456772",
+            "birthday": "1986-06-21",
+            "photo": "https://example.com/harper_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 19,
+            "name": "Benjamin Adams",
+            "email": "benjamin@gmail.com",
+            "phone": "00123456771",
+            "birthday": "1998-02-07",
+            "photo": "https://example.com/benjamin_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        },
+        {
+            "id": 20,
+            "name": "Avery Brown",
+            "email": "avery@gmail.com",
+            "phone": "00123456770",
+            "birthday": "1989-09-13",
+            "photo": "https://example.com/avery_photo.jpg",
+            "section": "65/45",
+            "major": "Software Engineering",
+            "admissionYear": "2022"
+        }
+          
+    ]
+
+}
