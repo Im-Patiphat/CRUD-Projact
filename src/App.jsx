@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import { AddStudent, StudentDetall, StudentList, EditStudent } from './Pages'
+import { AddStudent, StudentDetall, StudentList, EditStudent,Footer } from './Pages'
 import { BrowserRouter, Route, Routes } from 'react-router-dom'
 
 function App() {
@@ -15,6 +15,7 @@ function App() {
           <Route path="/student/detail/:id" element={<StudentDetall />} />
         </Routes>
       </BrowserRouter>
+      <Footer></Footer>
     </div>
   )
 }

@@ -9,7 +9,7 @@ const StudentList = () => {
             .then((res) => {
                 return res.json();
             }
-            ).theen((response) => {
+            ).then((response) => {
                 setStdData(response);
             })
             .catch((err) => {
@@ -19,13 +19,24 @@ const StudentList = () => {
 
 
     const loadEdit = (id) => {
-        navigate("/student/edit" + id)
+        navigate("/student/edit/" + id)
     };
     const loadDetail = (id) => {
-        navigate("/student/detail" + id)
+        navigate("/student/detail/" + id)
     };
     const removeStudent = (id) => {
-        alert("delete" + id)
+        //alert("delete" + id)
+        if (window.confirm("ID "+[id]+" do you want to remove?")){
+            fetch("http://localhost:8000/students/"+id,{
+                method: "DELETE"
+            }).then((res)=>{
+                alert("Remove Successfully");
+                window.location.reload();
+            })
+            .catch((err)=>{
+                console.log(err);
+            });
+        }
     };
 
     return (
@@ -35,7 +46,7 @@ const StudentList = () => {
 
                 </div>
                 <div className="card-body">
-                    <div className="divbtn">
+                    <div className="btn">
                         <Link to="/student/create" className='btn btn-success' >
                             Add New (+)
                         </Link>
@@ -46,7 +57,7 @@ const StudentList = () => {
                                 <td>ID</td>
                                 <td>Name</td>
                                 <td>Major</td>
-                                <td>Admission year</td>
+                                <td>Admission Year</td>
                                 <td>Actions</td>
                             </tr>
                         </thead>
