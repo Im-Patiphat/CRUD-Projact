@@ -20,7 +20,7 @@ const AddStudent = () => {
     const studentData ={
       name: student.name,
       email: student.email,
-      phone: student.student,
+      phone: student.phone,
       brithday: student.brithday,
       photo: student.photo,
       section: student.section,
